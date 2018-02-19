@@ -1,0 +1,24 @@
+{
+    "bridge": {
+        "name": "HomePi",
+        "username": "CC:22:3D:E3:CE:30",
+        "port": 51826,
+        "pin": "031-45-154"
+    },
+"accessories": [
+    {
+      "accessory": "ComputerSpeakers",
+      "name": "Audio"
+    }
+                 ],
+"platforms": [
+{
+        "platform": "mqtt",
+        "name": "RasPiMQTT",
+        "url": "mqtt://localhost",
+        "port": "1883",
+        "topic_type": "multiple",
+        "topic_prefix": "homebridge"
+}
+            ]
+}
