@@ -30,7 +30,7 @@ sudo apt-get install shairport-sync nodejs libavahi-compat-libdnssd-dev mosquitt
 echo "    #Installing HomeBridge, HomeBridge's PlugIns, Node-Red and Node-Red-Serial";
 echo " ";
 echo " ";
-npm install -g --unsafe-perm homebridge node-red node-red-node-serialport;
+sudo npm install -g --unsafe-perm homebridge homebridge-pc-volume homebridge-mqtt node-red node-red-node-serialport;
 echo " ";
 echo " ";
 echo "    #Making HomeBridge and Node-Red booteable";
@@ -45,16 +45,17 @@ echo " ";
 echo "    #Configuring HomeBridge";
 echo " ";
 echo " ";
-sudo mkdir /home/pi/.homebridge
+sudo mkdir /home/pi/.homebridge ;
+sudo chmod 777 /home/pi/.homebridge ;
 echo " ";
-sudo cp /home/pi/PiSmartBox/config.json /home/pi/.homebridge/
+sudo cp /home/pi/PiSmartBox/config.json /home/pi/.homebridge ;
 echo " ";
 echo " ";
 echo "    #Configuring Raspotify's and Shairport-Sync's outputs";
 echo " ";
 echo " ";
-sudo cp /home/pi/PiSmartBox/raspotify /etc/default;
-sudo cp /home/pi/PiSmartBox/shairport-sync.conf /etc;
+sudo cp /home/pi/PiSmartBox/raspotify /etc/default ;
+sudo cp /home/pi/PiSmartBox/shairport-sync.conf /etc ;
 echo " ";
 echo " ";
 echo "    #Configurating ALSA for multiple audio routing";
