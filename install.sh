@@ -12,4 +12,5 @@ sudo update-rc.d homebridge defaults
 sudo update-rc.d node-red defaults
 sudo cp raspotify /etc/default
 sudo cp shairport-sync.conf /etc
+sudo reboot
 
