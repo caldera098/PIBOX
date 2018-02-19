@@ -62,7 +62,7 @@ sudo cp /home/pi/PiSmartBox/shairport-sync.conf /etc;
 echo " ";
 echo " ";
 echo "Configurating ALSA for multiple audio routing";
-sudo cp /home/pi/PiSmartBox.sh /etc ;
+sudo cp /home/pi/PiSmartBox/asound.conf /etc ;
 echo " ";
 echo " ";
 echo " ";
