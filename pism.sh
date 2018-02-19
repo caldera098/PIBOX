@@ -30,7 +30,7 @@ sudo apt-get install shairport-sync nodejs libavahi-compat-libdnssd-dev mosquitt
 echo "    #Installing HomeBridge, HomeBridge's PlugIns, Node-Red and Node-Red-Serial";
 echo " ";
 echo " ";
-sudo npm install -g --unsafe-perm homebridge node-red node-red-node-serialport;
+npm install -g --unsafe-perm homebridge node-red node-red-node-serialport;
 echo " ";
 echo " ";
 echo "    #Making HomeBridge and Node-Red booteable";
