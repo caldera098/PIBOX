@@ -21,7 +21,7 @@
                 $ cd ~/PiSSBox
                 
      3. Make PiSSB.sh executable:
-                $ sudo chmod u+x 755 pissb.sh
+                $ sudo chmod 755 pissb.sh
                 
      4. Run the installation:
                 $ sudo bash pissb.sh
