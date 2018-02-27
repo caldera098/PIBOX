@@ -24,7 +24,7 @@
                 $ sudo chmod 755 pissb.sh
                 
      4. Run the installation:
-                $ sudo bash pissb.sh
+                $ ./pissb.sh
                 
      5. After installation says "ALL DONE" press any key and wait till reboot is complete.
      
