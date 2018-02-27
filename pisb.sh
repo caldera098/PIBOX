@@ -38,7 +38,7 @@ echo "    #Making HomeBridge and Node-Red booteable";
 echo " ";
 echo " ";
 sudo cp /home/pi/PiSmartBox/Boots/* /etc/init.d ;
-sudo chmod +x /etc/init.d/homebridge /etc/init.d/node-red ;
+sudo chmod 775 /etc/init.d/homebridge /etc/init.d/node-red ;
 sudo update-rc.d homebridge defaults ;
 sudo update-rc.d node-red defaults ;
 echo " ";
