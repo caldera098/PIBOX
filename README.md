@@ -30,7 +30,7 @@
      
    
 
-### Proximus updates:
+### Project objetives and next updates:
 
                 .A fully and personalized installation for all cases.
                 .New improves like Netflix or YouTube incorporing DIAL technology.
@@ -48,5 +48,9 @@
          -mikebrady's Shairport-Sync         https://github.com/mikebrady/shairport-sync 
          -cflurin's Homebridge-mqtt          https://github.com/cflurin/homebridge-mqtt 
          -JosephDuffy's Homebridge-PC-Volume https://github.com/JosephDuffy/homebridge-pc-volume 
-  
-  
+         
+         
+#### Anyone who want to contribute to the project is welcomed to do it!!!! 
+#### You can use this for recreational or home use. It's totaly prohibited to sell or make any economical usufruct of this program.
+
+##### Valentin Fernandez
