@@ -9,7 +9,26 @@
    3. USB Audio Line-In pre-configured for constantly streaming to speakers.
    4. For Apple devices, Homebridge (a HomeKit app bridge) is already installed and using MQTT Plug-In and Node-Red for communication            with Arduino or ESP. Also a      PC-Volume Plug-In for controlling your Pi volumen thru your iPhone.
    5. All of them running as bootable services, so no worries about annoying windows.
+   
+   
 
+### Installation
+
+     1. Clone this on your Home Foler and open PiSSBox folder:
+                $ git clone https://github.com/caldera098/PiSSBox.git
+                
+     2. Open PiSSBox folder:
+                $ cd ~/PiSSBox
+                
+     3. Make PiSSB.sh executable:
+                $ sudo chmod +x PISSB.sh
+                
+     4. Run the installation:
+                $ sudo bash PISSB.sh
+                
+     5. After installation says "ALL DONE" press any key and wait till reboot is complete.
+     
+   
 
 ### Proximus updates:
 
@@ -21,7 +40,8 @@
                 .Let's future show us what we need.
                 
 
-#### An enorumous thank for all this brilliant people who created those amazing programs: ####
+
+#### An enorumous thank for all this brilliant people who created this amazing programs: ####
 
          -nfarina's Homebirdge               https://github.com/nfarina/homebridge 
          -dtcooper's Raspotify               https://github.com/dtcooper/raspotify  
