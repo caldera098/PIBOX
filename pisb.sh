@@ -1,4 +1,5 @@
 #!bin/bash
+cd /home/pi
 echo "    #Attemping APT Update";
 echo " ";
 echo " ";
