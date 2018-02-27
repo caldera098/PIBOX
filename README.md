@@ -21,10 +21,10 @@
                 $ cd ~/PiSSBox
                 
      3. Make PiSSB.sh executable:
-                $ sudo chmod +x PISSB.sh
+                $ sudo chmod +x pissb.sh
                 
      4. Run the installation:
-                $ sudo bash PISSB.sh
+                $ sudo bash pissb.sh
                 
      5. After installation says "ALL DONE" press any key and wait till reboot is complete.
      
