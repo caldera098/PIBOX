@@ -26,7 +26,9 @@
      4. Run the installation:
                 $ ./pissb.sh
                 
-     5. After installation says "ALL DONE" press any key and wait till reboot is complete.
+     5. Pay attention you'll have to enter yes or no on some steps.
+     
+     6. After installation says "ALL DONE" press any key and wait till reboot is complete.
      
    
 
