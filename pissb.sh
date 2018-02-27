@@ -37,7 +37,7 @@ echo " ";
 echo "    #Making HomeBridge and Node-Red booteable";
 echo " ";
 echo " ";
-sudo cp /home/pi/PiSSBoxs/Boots/* /etc/init.d ;
+sudo cp /home/pi/PiSSBox/Boots/* /etc/init.d ;
 sudo chmod 775 /etc/init.d/homebridge /etc/init.d/node-red ;
 sudo update-rc.d homebridge defaults ;
 sudo update-rc.d node-red defaults ;
