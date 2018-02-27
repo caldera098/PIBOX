@@ -14,8 +14,8 @@
 
 ### Installation
 
-     1. Clone this on your Home Foler and open PiSSBox folder:
-                $ git clone https://github.com/caldera098/PiSSBox.git
+     1. Clone this on your Home Foler:
+                $ git clone https://github.com/caldera098/PiSSBox.git ~/
                 
      2. Open PiSSBox folder:
                 $ cd ~/PiSSBox
