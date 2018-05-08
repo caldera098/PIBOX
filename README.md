@@ -15,6 +15,7 @@
 
    Finally get working Bluetooth A2DP. It's a beta version and so you gotta do some little stuff before playing. In a terminal:
    1. Open BluetoothCTL and follow the steps ahead:
+   
             a. $ sudo bluetoothctl
             b. $ power on
             c. $ agent on
@@ -25,9 +26,11 @@
    2. Pick your phone and on Bluetooth settings you should see "raspberrypi" device. Attemp to connect. Now check your Pi's terminal and        you'll see some stuff for choosing yes/no. Write yes on all of them, it should not be more than three times. A
    
    3. Next: exit BluetoothCTL
+   
             g. $ exit
     
    4. Final step, run BlueAlsa script:
+   
             h. $ cd ~
             i. $ ./blue.sh
             
