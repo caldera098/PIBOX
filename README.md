@@ -10,6 +10,7 @@
    4. For Apple devices, Homebridge (a HomeKit app bridge) is already installed and using MQTT Plug-In and Node-Red for communication            with Arduino or ESP. Also a PC-Volume Plug-In for controlling your Pi volumen thru your iPhone.
    5. All of them running as bootable services, so no worries about annoying windows.
    
+	
 #### New update!!
 
    Finally get working Bluetooth A2DP. It's a beta version and so you gotta do some little stuff before playing. In a terminal:
