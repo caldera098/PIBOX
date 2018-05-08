@@ -34,7 +34,7 @@
             h. $ cd ~
             i. $ ./blue.sh
             
-      Now just play anything from your device and... voila!!!
+      Now you're good to go. Just play anything from your device and... voila!!!
       Remember it's a beta version, so on the next updates I'll make it automatic.
       PS: connect only one device at the same time. Multiple connections will crash app.
       PS2: this will keep the configuration all the time while the Pi is on. If you reboot it, then you gotta do all this again.
