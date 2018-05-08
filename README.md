@@ -7,10 +7,35 @@
    1. For Apple, just connect via AirPlay to RasPi. 
    2. For Spotify (only premium), go to Spotify Connect tab and select RasPi. 
    3. USB Audio Line-In pre-configured for constantly streaming to speakers.
-   4. For Apple devices, Homebridge (a HomeKit app bridge) is already installed and using MQTT Plug-In and Node-Red for communication            with Arduino or ESP. Also a      PC-Volume Plug-In for controlling your Pi volumen thru your iPhone.
+   4. For Apple devices, Homebridge (a HomeKit app bridge) is already installed and using MQTT Plug-In and Node-Red for communication            with Arduino or ESP. Also a PC-Volume Plug-In for controlling your Pi volumen thru your iPhone.
    5. All of them running as bootable services, so no worries about annoying windows.
    
+#### New update!!
+
+   Finally get working Bluetooth A2DP. It's a beta version and so you gotta do some little stuff before playing. In a terminal:
+   1. Open BluetoothCTL and follow the steps ahead:
+            $ sudo bluetoothctl
+            $ power on
+            $ agent on
+            $ default-agent
+            $ discoverable on
+            $ pairable on 
+  
+   2. Pick your phone and on Bluetooth settings you should see "raspberrypi" device. Attemp to connect. Now check your Pi's terminal and        you'll see some stuff for choosing yes/no. Write yes on all of them, it should not be more than three times. A
    
+   3. Next: exit BluetoothCTL
+            $ exit
+    
+   4. Final step, run BlueAlsa script:
+            $ cd ~
+            $ ./blue.sh
+            
+      Now just play anything from your device and... voila!!!
+      Remember it's a beta version, so on the next updates I'll make it automatic.
+      PS: connect only one device at the same time. Multiple connections will crash app.
+      PS2: this will keep the configuration all the time while the Pi is on. If you reboot it, then you gotta do all this again.
+            
+      
 
 ### Installation
 
