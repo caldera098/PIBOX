@@ -70,7 +70,7 @@ echo " ";
 echo " ";
 echo "    #Configurating ALSA for multiple audio routing and AlsaEq";
 sudo cp /home/pi/PiSSBox/asound.conf /etc ;
-sudo cp /home/pi/PiSSBox/audio.sh /home/pí ;
+sudo cp /home/pi/PiSSBox/audio.sh /home/pí/audio.sh ;
 echo " ";
 echo " ";
 echo "    #Configurating StartUp Sound";
