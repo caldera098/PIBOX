@@ -16,7 +16,7 @@ BITRATE="320"
 # To choose a different output device (ie a USB audio dongle or HDMI audio out),
 # use `--device` with something like `--device hw:0,1`. Your mileage may vary.
 #
-OPTIONS="--device duplex"
+OPTIONS="--device duplex "
 
 # Uncomment to use a cache for downloaded audio files. It's best to
 #leave this as-is since permissions are properly set on directory
