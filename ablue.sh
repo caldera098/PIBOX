@@ -6,4 +6,4 @@ while :
  do
     bluealsa-aplay -d duplex 00:00:00:00:00:00
     sleep 15
-done | bt-agent -c NoInputNoOutput &
+done | bt-agent -c NoInputNoOutput
