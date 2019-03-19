@@ -35,7 +35,7 @@ echo " ";
 echo " ";
 sudo apt-get --yes --force-yes install pulseaudio-module-bluetooth ;
 sudo mkdir .bluetooth ;
-sudo cp /home/pi/bluetooth.sh /home/pi/.bluetooth ;
+sudo cp /home/pi/PIBOX/bluetooth.sh /home/pi/.bluetooth ;
 echo " ";
 echo " ";
 echo "    #Installing HomeBridge, HomeBridge's PlugIns, Node-Red";
