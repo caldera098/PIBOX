@@ -10,7 +10,7 @@
 ### END INIT INFO
 
 dir="/home/pi"
-cmd="java -jar sserver-0.41.3-java8.jar -dataFolder /home/pi/.Blynk &"
+cmd="java -jar /home/pi/.Blynk/server-0.41.3-java8.jar -dataFolder /home/pi/.Blynk"
 user="pi"
 
 name=`basename $0`
