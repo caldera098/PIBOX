@@ -68,7 +68,8 @@ sudo cp /home/pi/PIBOX/flows_raspberrypi.json /home/pi/.node-red/flows_raspberry
 echo " ";
 echo " ";
 echo "    #Configurating Audio, Fan, etc.. scripts" ;
-sudo cp -rf /home/pi/PIBOX/.audio /home/pi/.Audio ;
+sudo  mkdir /home/pi/.audio /home/pi/.audioin /home/pi/.fan ;
+sudo cp -rf /home/pi/PIBOX/.audio /home/pi/.audio ;
 sudo cp -rf /home/pi/PIBOX/.audioin /home/pi/.audioin ;
 sudo cp -rf /home/pi/PIBOX/.fan /home/pi/.fan ;
 echo " ";
@@ -99,9 +100,9 @@ echo " ";
 echo "    #Configurating StartUp Sound";
 sudo mkdir /etc/sound ;
 sudo cp /home/pi/PIBOX/215415__unfa__ping.wav /etc/sound/startup.wav ;
-sudo echo "aplay -D duplex /etc/sound/startup.wav" > /etc/init.d/StartUp ;
-sudo chmod 775 /etc/init.d/StartUp
-sudo update.rc StartUp defaults
+sudo echo "aplay -D duplex /etc/sound/startup.wav" > /etc/init.d/startup ;
+sudo chmod 775 /etc/init.d/StartUp ;
+sudo update.rc StartUp defaults ;
 echo " ";
 echo " ";
 echo " ";
