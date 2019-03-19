@@ -10,7 +10,7 @@
 ### END INIT INFO
 
 dir="/home/pi"
-cmd="/home/pi/bluetooth/.bluetooth.sh"
+cmd="/home/pi/.bluetooth/./bluetooth.sh""
 user="pi"
 
 name=`basename $0`
