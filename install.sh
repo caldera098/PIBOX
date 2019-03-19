@@ -68,7 +68,6 @@ sudo cp /home/pi/PIBOX/flows_raspberrypi.json /home/pi/.node-red/flows_raspberry
 echo " ";
 echo " ";
 echo "    #Configurating Audio, Fan, etc.. scripts" ;
-sudo mkdir /home/pi/.audio /home/pi/.audioin /home/pi/.fan ;
 sudo cp -rf /home/pi/PIBOX/audio /home/pi/.audio ;
 sudo cp -rf /home/pi/PIBOX/audioin /home/pi/.audioin ;
 sudo cp -rf /home/pi/PIBOX/fan /home/pi/.fan ;
