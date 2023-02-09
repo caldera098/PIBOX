@@ -8,7 +8,8 @@
    2. For Spotify (only premium), go to Spotify Connect tab and select RasPi. 
    3. USB Audio Line-In pre-configured for constantly streaming to speakers.
    4. For Apple devices, Homebridge (a HomeKit app bridge) is already installed and using MQTT Plug-In and Node-Red for communication            with Arduino or ESP. Also a PC-Volume Plug-In for controlling your Pi volumen thru your iPhone.
-   5. All of them running as bootable services, so no worries about annoying windows.
+   5. Beta version for Netflix thru KODI (ex-XBMC). Next version will be better.
+   6. All of them running as bootable services, so no worries about annoying windows.
    
 	
 #### New update!!
@@ -50,10 +51,10 @@
                 $ cd ~/PiSSBox
                 
      3. Make PiSSB.sh executable:
-                $ sudo chmod 755 pissb.sh
+                $ sudo chmod 755 install.sh
                 
      4. Run the installation:
-                $ ./pissb.sh
+                $ ./install.sh
                 
      5. Pay attention you'll have to enter yes or no on some steps.
      
